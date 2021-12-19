@@ -29,7 +29,7 @@ const GetAuthor = () => {
         setAuthor(data.results);
       });
   };
-  if (author.length === 0) return <div>Loading ....</div>;
+  if (author.length === 0) return <div align="center">Loading ....</div>;
   // const usersPerPage =5;
   // const PagesVisited = pageNumber * usersPerPage;
   // const displayAuthors = author.slice(PagesVisited, PagesVisited+usersPerPage).map((authorsInformation) =>{})

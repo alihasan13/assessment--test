@@ -2,18 +2,9 @@ import React from "react";
 import {
   Typography,
   AppBar,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
   CssBaseline,
-  Grid,
   Toolbar,
-  Container,
-  Button,
-  Box,
-  Stack,
-  Copyright,
+ 
 } from "@mui/material";
 
 const Footer = () => {
