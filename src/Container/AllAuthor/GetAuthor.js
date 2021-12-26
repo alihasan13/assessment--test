@@ -9,7 +9,7 @@ import {
   Grid
 } from "@mui/material";
 import { DataGrid } from '@mui/x-data-grid';
-import ListItemComponent from "./ListItemComponent";
+import ListItemComponent from "../../Components/ListItemComponent";
 // import {PhotoCamera} from '@mui/material'
 const GetAuthor = () => {
   const [author, setAuthor] = useState([]);
